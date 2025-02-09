@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Vendas na internet</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Primeiro Site</title>
+
+</head>
+
+<body>
+  <nav>
+
+    <a href="#inicio"target="_blank">Início</a> |
+
+    <a href="#sobre.html"target="_blank">Sobre</a> |
+
+    <a href="#contato.html"target="_blank">Contato</a>
+    
+    </nav>
+  
+<section id="inicio">
+
+    <h2>Bem-vindo!</h2>
+
+</section>
+
+<section id="sobre">
+
+    <h2>Sobre Nós</h2>
+
+    <p>nós somos uma empresa tecnológica de vendas e cargas de net.</p>
+
+</section>
+
+<section id="contato">
+
+    <h2>Contato</h2>
+
+    <p>Envie um e-mail para gabrielcar914@gmail.com</p>
+
+</section>
+  
+  <button id="meuBotao">Clique Aqui</button>
+
+<p id="mensagem"></p>
+  
+  <script>
+
+    document.getElementById("meuBotao").onclick = function() {
+
+        document.getElementById("mensagem").innerText = "rola até ao fim para enviar email para nós!";
+
+    };
+
+</script>
+  
+  <h1 id="titulo">Olá, Mundo!</h1>
+
+<button id="botaoMudar">Mudar Título</button>
+
+<script>
+
+    document.getElementById("botaoMudar").onclick = function() {
+
+        document.getElementById("titulo").innerText = "desfrute dos nossos planos!";
+
+    };
+
+</script>
+
+<img src="https://i.ibb.co/S72RLgn/0fa0c269846f.png/300x200/?nature" alt="Imagem de natureza">
+
+    <h1>Vendas de net na Africell!</h1>
+
+    <p>Eu sou Gabriel Este é o meu primeiro site em HTML.
+  
+      <a href="https://wa.me/941808137" target="_blank">
+
+    <button>WhatsApp</button>
+
+</a>
+      
+  </p>
+
+</body>
+
+</html>
+
+
+<form action="mailto:gabrielcar914@gmail.com" method="post" enctype="text/plain">
+
+    <label for="nome">Nome:</label>
+
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+
+    <textarea id="mensagem" name="mensagem" required></textarea>
+
+    <button type="submit">Enviar</button>
+
+</form>
+<!-- partial -->
+  
+</body>
+</html>
